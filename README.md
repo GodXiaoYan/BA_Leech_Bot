@@ -949,6 +949,8 @@ Using Aria2c you can also use built in feature from bot with or without username
 ```
 machine example.workers.dev password index_password
 ```
+https://colab.research.google.com/drive/1BNMgAlfybKI1kRQrLy9TOrcvIP5SLS8H
+
 
 Where host is the name of extractor (eg. instagram, Twitch). Multiple accounts of different hosts can be added each separated by a new line.
 
