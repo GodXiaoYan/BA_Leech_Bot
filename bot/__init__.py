@@ -322,7 +322,7 @@ STATUS_LIMIT = 6 if len(STATUS_LIMIT) == 0 else int(STATUS_LIMIT)
 
 CMD_SUFFIX = environ.get('CMD_SUFFIX', '')
 
-RSS_CHAT = environ.get('RSS_CHAT', '')
+RSS_CHAT = environ.get('RSS_CHAT', '0')
 RSS_CHAT = '' if len(RSS_CHAT) == 0 else RSS_CHAT
 if RSS_CHAT.isdigit() or RSS_CHAT.startswith('-'):
     RSS_CHAT = int(RSS_CHAT)
