@@ -6,3 +6,4 @@ httplib2shim
 google_auth_oauthlib
 pyrogram==2.0.77
 tgcrypto
+pytz
